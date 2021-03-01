@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bish-Bosh 2.0</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="bishbosh.js"></script>
+    </meta>
+</head>
+<header>
+    <h1>Bish-Bosh 2.0</h1>
+
+</header>
+
+<body>
+
+
+    <div id="container">
+        <div id="aim">
+            <h3>Purpose</h3>
+            <p> Instructions: Loop value is the value range you want to operate on.</p>
+            <p>The first division value will divide the current loop value, and if it is evenly divided it will display "Bish"</p>
+            <p>The second division value is just as the one above but shows "Bosh"</p>
+            <p>If both first and second value is evenly divided then it will show "Bish-Bosh". If none of the conditions are met, loop value number will be shown.</p>
+        </div>
+
+        <form id="frm1" action="form_action.asp">
+            Please enter values in the form below<br><br> Loop value: <br><input type="number" name="loopValue" value="100" min="1" max="1000" ><br><br> First division value: <br><input type="number" name="division1" value="3" min="1" max="100">
+            <br><br> Second division value: <br><br><input type="number" name="division2" value="4" min="1" max="100"><br>
+            <!--<input type="submit" value="Submit">-->
+        </form>
+
+        <p>"Click Me" button to display result</p>
+        <button onclick="myFunction2()">Click me</button>
+        <p id="demo"></p>
+    </div>
+
+</body>
+
+<footer>
+    <small>© Copyright 2021, Kenneth Okalang 
+</footer>
+
+</html>
